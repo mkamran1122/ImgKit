@@ -1,0 +1,8 @@
+{
+  "name": "ImgKit",
+  "description": "Fast, private online image editor and batch processing toolkit running 100% locally in your browser. A product by MK Labs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

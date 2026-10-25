@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="ik-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" />
+      <stop offset="0.5" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#3730A3" />
+    </linearGradient>
+    <linearGradient id="ik-accent" x1="16" y1="16" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="48" height="48" rx="12" fill="url(#ik-grad)" />
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="11.25" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1.5" />
+  
+  <!-- Precision Crop & Aperture Guides -->
+  <path d="M14 20V15C14 14.4477 14.4477 14 15 14H20" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M28 14H33C33.5523 14 34 14.4477 34 15V20" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M34 28V33C34 33.5523 33.5523 34 33 34H28" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M20 34H15C14.4477 34 14 33.5523 14 33V28" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Central Aperture Lens Diamond -->
+  <path d="M24 17L31 24L24 31L17 24Z" fill="url(#ik-accent)" />
+  <circle cx="24" cy="24" r="2.75" fill="#FFFFFF" />
+</svg>
